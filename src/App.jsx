@@ -56,3 +56,5 @@ const FeatureCard = ({ title, desc }) => (
 );
 
 export default LandingPage;
+import ReactDOM from 'react-dom/client'
+ReactDOM.createRoot(document.getElementById('root')).render(<LandingPage />)
