@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { ChevronRight, Star, Shield, Zap, Layout, ArrowRight } from 'lucide-react';
 import './index.css';
 import React from 'react';
 import { ChevronRight, Star, Shield, Zap, Layout, ArrowRight } from 'lucide-react';
@@ -54,6 +57,8 @@ const FeatureCard = ({ title, desc }) => (
     <p className="text-slate-600">{desc}</p>
   </div>
 );
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<LandingPage />);
 
 export default LandingPage;
 import ReactDOM from 'react-dom/client'
