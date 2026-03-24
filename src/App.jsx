@@ -1,3 +1,4 @@
+import './index.css';
 import React from 'react';
 import { ChevronRight, Star, Shield, Zap, Layout, ArrowRight } from 'lucide-react';
 
